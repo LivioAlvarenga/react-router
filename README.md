@@ -34,6 +34,9 @@ Isso permite experiências de usuário mais rápidas porque o navegador não pre
 # Criando projeto com Vite e React e Javascript
 npm create vite@latest react-router -- --template react
 
+# Instalando React Router
+npm install react-router-dom
+
 # Instalando arquitetura Tailwindcss
 npm install -D tailwindcss postcss autoprefixer prettier prettier-plugin-tailwindcss
 

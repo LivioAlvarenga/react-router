@@ -1,9 +1,16 @@
-function App() {
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AboutUs from "./pages/AboutUs";
+import ErrorPage from "./pages/ErrorPage";
+import Home from "./pages/Home";
+
+export default function App() {
   return (
-    <div className="text-7xl font-bold">
-      <h1>React: desenvolvendo em React Router com JavaScript</h1>
-    </div>
+  <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<Home />}/>
+    <Route path="/sobre-nos" element={<AboutUs />}/>
+    <Route path="*" element={<ErrorPage />}/>
+   </Routes>
+  </BrowserRouter>
   );
 }
-
-export default App;
