@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
+import AboutMe from "./pages/AboutMe";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 
@@ -8,7 +8,7 @@ export default function App() {
   <BrowserRouter>
    <Routes>
     <Route path="/" element={<Home />}/>
-    <Route path="/sobre-nos" element={<AboutUs />}/>
+    <Route path="/sobre-min" element={<AboutMe />}/>
     <Route path="*" element={<ErrorPage />}/>
    </Routes>
   </BrowserRouter>
