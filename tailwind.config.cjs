@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        gandhiSans: ["Gandhi Sans", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
       },
       colors: {
         space: {
