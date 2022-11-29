@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Home",
+    "to": "/"
+  },
+  {
+    "text": "Sobre Mim",
+    "to": "/sobre-mim"
+  }
+]
