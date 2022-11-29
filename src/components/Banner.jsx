@@ -4,7 +4,7 @@ import minhaFoto from "@/assets/images/minha_foto.webp";
 export default function Banner() {
   return (
     <div className="bg-azulDark">
-      <div className="grid grid-cols-1 px-5 py-8 text-white md:grid-cols-2 md:gap-4 lg:mx-auto lg:max-w-7xl lg:px-0">
+      <div className="grid grid-cols-1 px-5 py-8 text-white md:grid-cols-2 md:gap-4 lg:mx-auto lg:max-w-7xl">
         <div className="my-8 flex flex-col justify-around gap-8">
           <h1 className="font-playfair text-6xl font-bold">Olá, Mundo!</h1>
           <p className="font-playfair text-2xl">
