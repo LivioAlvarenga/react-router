@@ -2,23 +2,19 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function LinkMenu(props) {
   const localization = useLocation();
+  const onActive = localization.pathname === props.to;
   return (
-    <>
-      {props.dataMenu.map((item) => {
-        const onActive = localization.pathname === item.to;
-        return (
-          <div className="relative" key={item.text}>
-            <Link className="text-xl text-fontMain" to={item.to}>
-              {item.text}
-            </Link>
-            <span
-              className={`${
-                onActive ? "block" : "hidden"
-              } absolute right-1/2 -bottom-1 h-[3px] w-6 translate-x-1/2 bg-fontMain lg:w-7`}
-            />
-          </div>
-        );
-      })}
-    </>
+    <li className="h-full">
+      <Link to={props.to}>
+        <div className="flex h-full flex-col items-center justify-center">
+          <p className={`text-xl ${props.colorText}`}>{props.text}</p>
+          <span
+            className={`${onActive ? "opacity-100" : "opacity-0"} h-[3px] w-8  ${
+              props.colorBorder
+            } lg:w-9`}
+          />
+        </div>
+      </Link>
+    </li>
   );
 }
