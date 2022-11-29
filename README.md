@@ -20,13 +20,13 @@
 
 ## 💻 Sobre o projeto
 
-🚀 Repositório de um blog com objetivo de utilizar o ![React Router](https://reactrouter.com). Este projeto foi criado com Vite, Tailwindcss, Eslint e Prettier.
+🚀 Repositório de um blog com objetivo de utilizar o ![React Router](https://reactrouter.com). Este projeto foi criado com Vite, Tailwindcss, Eslint e Prettier. O projeto foi criado utilizando o conceito Mobile-First.
 
 O React Router permite "roteamento do lado do cliente".
 
 Em sites tradicionais, o navegador solicita um documento de um servidor da web, baixa e avalia recursos CSS e JavaScript e renderiza o HTML enviado do servidor. Quando o usuário clica em um link, ele inicia o processo novamente para uma nova página.
 
-O roteamento do lado do cliente permite que seu aplicativo atualize a URL de um clique no link sem fazer outra solicitação para outro documento do servidor. Em vez disso, seu aplicativo pode renderizar imediatamente uma nova interface do usuário e fazer solicitações de dados fetchpara atualizar a página com novas informações.
+O roteamento do lado do cliente permite que seu aplicativo atualize a URL de um clique no link sem fazer outra solicitação para outro documento do servidor. Em vez disso, seu aplicativo pode renderizar imediatamente uma nova interface do usuário e fazer solicitações de dados fetch para atualizar a página com novas informações.
 
 Isso permite experiências de usuário mais rápidas porque o navegador não precisa solicitar um documento totalmente novo ou reavaliar recursos CSS e JavaScript para a próxima página.
 
