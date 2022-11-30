@@ -13,7 +13,7 @@ export default function AboutMe() {
         Olá, eu sou Livio Alvarenga,
       </h3>
       <img
-        className="mb-8 w-full rounded shadow-2xl md:m-[0_auto_2rem] md:w-[70vw] lg:float-right lg:ml-6 lg:w-[40vw]"
+        className="mb-8 w-full rounded shadow-2xl md:m-[0_auto_2rem] md:w-[70vw] lg:float-right lg:ml-6 lg:w-[35vw]"
         src={minhaFoto}
         alt="foto Livio Alvarenga com uma camiseta de programação"
       />
