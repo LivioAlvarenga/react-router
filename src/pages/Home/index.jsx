@@ -1,10 +1,24 @@
 import Banner from "@/components/Banner";
+import Post from "@/components/Post";
+import posts from "@/json/posts.json";
+import Wrapper from "../../components/Wrapper";
 
 export default function Home() {
   return (
     <>
       <Banner />
-      <section className="h-screen" />
+      <Wrapper>
+        <ul className="my-12 flex flex-wrap gap-8 -translate-y-24">
+          {posts.map((post) => (
+            <li
+              className="w-full overflow-hidden rounded-xl shadow-2xl duration-500 ease-in-out md:w-[47%] lg:hover:-translate-y-4 lg:w-[23%]"
+              key={post.id}
+            >
+              <Post post={post} />
+            </li>
+          ))}
+        </ul>
+      </Wrapper>
     </>
   );
 }
