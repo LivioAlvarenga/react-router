@@ -1,4 +1,4 @@
-import LinkMenu from "@/components/LinkMenu";
+import LinkMenu from "@/components/Menu/LinkMenu";
 import dataMenu from "./menu.json";
 
 export default function Menu() {
