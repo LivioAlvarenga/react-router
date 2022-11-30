@@ -1,3 +1,4 @@
+import DefaultPage from "@/components/DefaultPage";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 import AboutMe from "@/pages/AboutMe";
@@ -10,8 +11,11 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Menu />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobre-mim" element={<AboutMe />} />
+        <Route path="/" element={<DefaultPage />}>
+          <Route index element={<Home />} />
+          <Route path="sobre-mim" element={<AboutMe />} />
+        </Route>
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer

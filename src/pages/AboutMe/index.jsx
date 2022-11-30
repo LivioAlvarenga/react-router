@@ -1,7 +1,6 @@
 
-
 export default function AboutMe() {
   return (
-    <div>Sobre Nos</div>
-  )
+      <h1>Sobre Min</h1>
+  );
 }

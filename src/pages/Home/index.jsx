@@ -1,12 +1,9 @@
-import Banner from "@/components/Banner";
 import Post from "@/components/Post";
 import posts from "@/json/posts.json";
 import Wrapper from "@/components/Wrapper";
 
 export default function Home() {
   return (
-    <>
-      <Banner />
       <Wrapper>
         <ul className="my-12 flex flex-wrap gap-8 -translate-y-24">
           {posts.map((post) => (
@@ -19,6 +16,5 @@ export default function Home() {
           ))}
         </ul>
       </Wrapper>
-    </>
   );
 }
