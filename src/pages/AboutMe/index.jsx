@@ -1,5 +1,6 @@
 import bannerSobre from "@/assets/images/bannerSobre.webp";
 import minhaFoto from "@/assets/images/sobre_mim_foto.webp";
+import minhaFotoHover from "@/assets/images/sobre_mim_foto_hover.webp";
 import PostModel from "@/components/PostModel";
 
 export default function AboutMe() {
@@ -12,11 +13,18 @@ export default function AboutMe() {
       <h3 className="mt-10 mb-8 font-playfair text-3xl font-bold md:text-4xl lg:text-5xl">
         Olá, eu sou Livio Alvarenga,
       </h3>
-      <img
-        className="mb-8 w-full rounded shadow-2xl md:m-[0_auto_2rem] md:w-[70vw] lg:float-right lg:ml-6 lg:w-[35vw]"
-        src={minhaFoto}
-        alt="foto Livio Alvarenga com uma camiseta de programação"
-      />
+      <div className="group relative">
+        <img
+          className="absolute right-0 mb-8 w-full rounded opacity-0 shadow-2xl duration-1000 ease-in-out md:m-[0_auto_2rem] md:w-[70vw] lg:ml-6 lg:w-[35vw] lg:group-hover:opacity-100"
+          src={minhaFotoHover}
+          alt="foto Livio Alvarenga com uma camiseta de programação"
+        />
+        <img
+          className="mb-8 w-full rounded shadow-2xl md:m-[0_auto_2rem] md:w-[70vw] lg:float-right lg:ml-6 lg:w-[35vw]"
+          src={minhaFoto}
+          alt="foto Livio Alvarenga com uma camiseta de programação"
+        />
+      </div>
 
       <p className="mb-5 md:text-xl lg:text-2xl ">
         engenheiro de Produção aficcionado por tecnologia, programação, processos e
