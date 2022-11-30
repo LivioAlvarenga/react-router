@@ -1,7 +1,7 @@
 import Banner from "@/components/Banner";
 import Post from "@/components/Post";
 import posts from "@/json/posts.json";
-import Wrapper from "../../components/Wrapper";
+import Wrapper from "@/components/Wrapper";
 
 export default function Home() {
   return (
