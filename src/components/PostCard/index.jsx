@@ -1,4 +1,4 @@
-export default function Post({ post }) {
+export default function PostCard({ post }) {
   return (
     <div className="group grid h-[320px] cursor-pointer grid-rows-2">
       <div className="overflow-hidden">

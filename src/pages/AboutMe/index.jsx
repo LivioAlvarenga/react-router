@@ -6,7 +6,7 @@ import PostModel from "@/components/PostModel";
 export default function AboutMe() {
   return (
     <PostModel
-      bannerTitle={bannerSobre}
+      banner={bannerSobre}
       title="Sobre mim"
       position="object-[0px_-20px] md:object-[0px_-40px] lg:object-[0px_-265px]"
     >
