@@ -9,6 +9,7 @@ export default function AboutMe() {
       banner={bannerSobre}
       title="Sobre mim"
       position="object-[0px_-20px] md:object-[0px_-40px] lg:object-[0px_-265px]"
+      titleColor="lg:group-hover:text-azulLight"
     >
       <h3 className="mt-10 mb-8 font-playfair text-3xl font-bold md:text-4xl lg:text-5xl">
         Olá, eu sou Livio Alvarenga,

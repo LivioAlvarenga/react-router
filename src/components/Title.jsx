@@ -1,6 +1,6 @@
 import Wrapper from "@/components/Wrapper";
 
-export default function Title({ position, banner, title }) {
+export default function Title({ position, banner, title, titleColor }) {
   return (
     <div className="group relative flex h-28 items-center md:h-48 lg:h-56">
       <div className="absolute top-0 -z-10 h-full w-full overflow-hidden" id="banner">
@@ -11,7 +11,9 @@ export default function Title({ position, banner, title }) {
         />
       </div>
       <Wrapper>
-        <h2 className=" font-playfair text-5xl font-bold duration-700 ease-in-out lg:text-6xl  lg:group-hover:text-7xl  lg:group-hover:text-azulLight/70">
+        <h2
+          className={`font-playfair text-3xl font-bold duration-700 ease-in-out md:text-5xl lg:text-6xl  lg:group-hover:text-7xl ${titleColor}`}
+        >
           {title}
         </h2>
       </Wrapper>

@@ -40,6 +40,9 @@ npm install react-router-dom
 # Instalando arquitetura Tailwindcss
 npm install -D tailwindcss postcss autoprefixer prettier prettier-plugin-tailwindcss
 
+# Instalando typography Tailwindcss (prose) para formatação automática de markdown
+npm install -D @tailwindcss/typography
+
 # Criando tailwind.config.cjs
 npx tailwindcss init -p
 

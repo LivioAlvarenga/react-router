@@ -43,3 +43,7 @@ body {
   -webkit-font-smoothing: antialiased; /* a font no chrome fica mais suave. */
   box-sizing: border-box;
 }
+
+.imgCenter p img {
+  margin: auto;
+}
