@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	React: desenvolvendo em React Router com JavaScript
+	Desenvolvendo um Blog com React, React-Router, TailwindCss e Vitejs
 </h1>
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
@@ -86,7 +86,7 @@ npm run dev
 
 | :placard: Vitrine.Dev |                                                                                   |
 | --------------------- | --------------------------------------------------------------------------------- |
-| :sparkles: Nome       | **React Boas Praticas Passo a Passo**                                             |
+| :sparkles: Nome       | **Desenvolvendo um Blog com React, React-Router, TailwindCss e Vitejs**           |
 | :label: Tecnologias   | react, react router, nodejs, javascript, html5, css3, vite, prettier, tailwindcss |
 | :rocket: URL          | https://react-router-livio-alvarenga.vercel.app/                                  |
 
