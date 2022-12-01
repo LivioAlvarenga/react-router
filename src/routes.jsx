@@ -6,7 +6,7 @@ import AboutMe from "@/pages/AboutMe";
 import Home from "@/pages/Home";
 import PageNotFound from "@/pages/PageNotFound";
 import Post from "@/pages/Post";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 export default function AppRoutes() {
   return (
@@ -19,7 +19,8 @@ export default function AppRoutes() {
           <Route path="sobre-mim" element={<AboutMe />} />
         </Route>
         <Route path="posts/:id/*" element={<Post />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="404" element={<PageNotFound />} />
+        <Route path="*" element={<Navigate to="404"/>} />
       </Routes>
       <Footer
         backgroundColor={"bg-azulDark"}
