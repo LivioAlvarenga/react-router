@@ -26,7 +26,7 @@ export default function PageNotFound() {
           className="cursor-pointer rounded-3xl bg-azulLight px-6 py-3 text-xl tracking-wider shadow-md duration-1000 ease-in-out lg:hover:bg-azulDark lg:hover:px-9"
           onClick={() => navigate(-1)}
         >
-          Voltar Para Home
+          Voltar
         </button>
       </Wrapper>
     </div>

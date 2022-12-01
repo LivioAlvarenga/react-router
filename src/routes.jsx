@@ -15,9 +15,8 @@ export default function AppRoutes() {
         <Route path="/" element={<DefaultPage />}>
           <Route index element={<Home />} />
           <Route path="sobre-mim" element={<AboutMe />} />
-          <Route path="posts/:id" element={<Post />} />
         </Route>
-
+        <Route path="posts/:id/*" element={<Post />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer
