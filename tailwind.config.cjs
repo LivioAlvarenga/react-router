@@ -10,7 +10,6 @@ module.exports = {
       colors: {
         azulDark: "#041833",
         azulLight: "#1875E8",
-        fontMain: "#041833",
         fontPost: "#444444",
       },
     },

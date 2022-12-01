@@ -12,8 +12,8 @@ export default function Menu() {
               <LinkMenu
                 text={item.text}
                 to={item.to}
-                colorText="text-fontMain"
-                colorBorder="bg-fontMain"
+                colorText="text-azulDark"
+                colorBorder="bg-azulDark"
                 key={item.text}
               />
             ))}
