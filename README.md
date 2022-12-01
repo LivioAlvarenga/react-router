@@ -20,7 +20,7 @@
 
 ## 💻 Sobre o projeto
 
-🚀 Repositório de um blog com objetivo de utilizar o React Router. Este projeto foi criado com Vite, Tailwindcss, Eslint e Prettier. O projeto foi criado utilizando o conceito Mobile-First.
+🚀 Repositório de um blog com objetivo de utilizar o React e React-Router. Este projeto foi criado com React, Vite, Tailwindcss, Eslint e Prettier utilizando o conceito Mobile-First.
 
 O React Router permite "roteamento do lado do cliente".
 
@@ -84,11 +84,11 @@ npm run dev
 
 ## 📺 Vitrine Dev
 
-| :placard: Vitrine.Dev |                                                                                     |
-| --------------------- | ----------------------------------------------------------------------------------- |
-| :sparkles: Nome       | **React Boas Praticas Passo a Passo**                                               |
-| :label: Tecnologias   | nodejs, javascript, html5, css3, reactjs, react router, vite, prettier, tailwindcss |
-| :rocket: URL          | https://react-router-livio-alvarenga.vercel.app/                                    |
+| :placard: Vitrine.Dev |                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------- |
+| :sparkles: Nome       | **React Boas Praticas Passo a Passo**                                             |
+| :label: Tecnologias   | react, react router, nodejs, javascript, html5, css3, vite, prettier, tailwindcss |
+| :rocket: URL          | https://react-router-livio-alvarenga.vercel.app/                                  |
 
 ---
 
@@ -121,7 +121,16 @@ As seguintes ferramentas foram usadas na construção do projeto
 
 ## ⚙️ Funcionalidades
 
-...
+- [x] É um blog responsivo Celular, Tablet, Laptop e Desktop;
+      ![Space App](https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/Monitor_laptop_Tablet_Celular.png?raw=true)
+- [x] Possui Home, Sobre Mim, Blog e Page Not Found;
+<div align="center"> 
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/home.gif?raw=true" width="300">
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/sobre.gif?raw=true" width="300">
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/bolg.gif?raw=true" width="300">
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/404.gif?raw=true" width="300">
+</div>
+- [x] Site escalável, com todos componentes separados e sem repetição de códigos.
 
 ---
 
