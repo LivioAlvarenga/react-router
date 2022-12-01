@@ -1,6 +1,7 @@
 import PostCard from "@/components/PostCard";
 import posts from "@/json/posts.json";
 import Wrapper from "@/components/Wrapper";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -15,6 +16,11 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        <Link to="/">
+          <button className="cursor-pointer rounded-3xl bg-red-600 px-6 py-3 text-xl tracking-wider shadow-md duration-1000  ease-in-out lg:hover:bg-azulDark lg:hover:px-9  lg:hover:shadow-fontPost">
+            Voltar
+          </button>
+        </Link>
       </Wrapper>
   );
 }

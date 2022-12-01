@@ -7,9 +7,15 @@ import { useParams } from "react-router-dom";
 
 export default function Post() {
   const parameters = useParams();
+
   const post = posts.find((post) => {
     return post.id === Number(parameters.id);
   });
+
+  if (!post) {
+    return <h1 className="font-raleway text-2xl">Post não Encontrado</h1>
+  }
+
   return (
     /* banner={`/assets/posts/${post.id}/capa.png`} */
     <PostModel
