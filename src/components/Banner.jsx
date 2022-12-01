@@ -9,7 +9,7 @@ export default function Banner() {
         <div className="grid grid-cols-1 gap-10 py-8 text-white md:grid-cols-2 md:gap-4 lg:py-36 ">
           <div className="my-8 flex flex-col justify-around gap-8">
             <h1 className="font-playfair text-6xl font-bold">Olá, Mundo!</h1>
-            <p className="font-playfair text-2xl">
+            <p className="font-playfair text-2xl leading-9">
               Boas vindas ao meu espaço pessoal! Eu sou Livio Alvarenga, Engenheiro de
               Produção, Dev Backend e Frontend. Com ampla vivência na área gerencial, sou
               um profissional que consegue unir a experiência prática do negócio com o uso
