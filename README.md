@@ -13,14 +13,14 @@
 
 &nbsp;
 
-![Space App](https://github.com/LivioAlvarenga/react-step-by-step/blob/master/public/react-banner.png?raw=true#vitrinedev)
+![Space App](https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/capa.png?raw=true#vitrinedev)
 
 &nbsp;
 <a id="-sobre-o-projeto"></a>
 
 ## 💻 Sobre o projeto
 
-🚀 Repositório de um blog com objetivo de utilizar o ![React Router](https://reactrouter.com). Este projeto foi criado com Vite, Tailwindcss, Eslint e Prettier. O projeto foi criado utilizando o conceito Mobile-First.
+🚀 Repositório de um blog com objetivo de utilizar o React Router. Este projeto foi criado com Vite, Tailwindcss, Eslint e Prettier. O projeto foi criado utilizando o conceito Mobile-First.
 
 O React Router permite "roteamento do lado do cliente".
 
