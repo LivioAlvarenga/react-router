@@ -13,14 +13,14 @@ export default function AboutMe() {
       <h3 className="mt-10 mb-8 font-playfair text-3xl font-bold md:text-4xl lg:text-5xl">
         Olá, eu sou Livio Alvarenga,
       </h3>
-      <div className="group relative">
+      <div className="group relative mb-8 shadow-2xl">
         <img
-          className="absolute right-0 mb-8 w-full rounded opacity-0 shadow-2xl duration-1000 ease-in-out md:m-[0_auto_2rem] md:w-[70vw] lg:ml-6 lg:w-[35vw] lg:group-hover:opacity-100"
+          className="absolute right-0  w-full rounded opacity-0 duration-1000 ease-in-out md:m-[0_auto_2rem] md:w-[70vw] lg:ml-6 lg:w-[35vw] lg:group-hover:opacity-100"
           src={minhaFotoHover}
           alt="foto Livio Alvarenga com uma camiseta de programação"
         />
         <img
-          className="mb-8 w-full rounded shadow-2xl md:m-[0_auto_2rem] md:w-[70vw] lg:float-right lg:ml-6 lg:w-[35vw]"
+          className="w-full rounded md:m-[0_auto_2rem] md:w-[70vw] lg:float-right lg:ml-6 lg:w-[35vw]"
           src={minhaFoto}
           alt="foto Livio Alvarenga com uma camiseta de programação"
         />
