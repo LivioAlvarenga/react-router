@@ -1,6 +1,6 @@
 import Wrapper from "@/components/Wrapper";
 
-export default function SubTitle({ position, banner, title }) {
+export default function Title({ position, banner, title }) {
   return (
     <div className="group relative flex h-28 items-center md:h-48 lg:h-56">
       <div className="absolute top-0 -z-10 h-full w-full overflow-hidden" id="banner">
