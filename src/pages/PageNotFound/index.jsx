@@ -1,13 +1,55 @@
 import backgroundPage from "@/assets/images/pageNotFoundBackground.webp";
 import Wrapper from "@/components/Wrapper";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function PageNotFound() {
   const navigate = useNavigate();
+
+  /* Cria um estado inicial da posição de x e y do mouse ao mouse entrar no background
+  Usamos esta medida para diminuir com mouse position atual e assim suavizar o primeiro movimento */
+  const [mousePositionStart, setMousePositionStart] = useState({
+    x: 0,
+    y: 0,
+  });
+
+  /* Criando estado para medir posição do mouse na tela*/
+  const [mousePosition, setMousePosition] = useState({
+    x: "0px",
+    y: "0px",
+  });
+
+  function handleMouseMove(ev) {
+    // Armazena posição inicial do mouse na tela
+    if (mousePosition.x === "0px") {
+      setMousePositionStart({
+        x: ev.clientX,
+        y: ev.clientY,
+      });
+    }
+
+    setMousePosition({
+      x:
+        mousePositionStart.x === 0
+          ? "-1px"
+          : -(ev.clientX - mousePositionStart.x) / 7 + "px",
+      y:
+        mousePositionStart.y === 0
+          ? "-1px"
+          : -(ev.clientY - mousePositionStart.y) / 7 + "px",
+    });
+  }
+
   return (
-    <div className="relative h-screen w-full">
+    <div
+      className="relative h-screen w-full overflow-hidden"
+      onMouseMove={(ev) => handleMouseMove(ev)}
+    >
       <img
-        className="absolute top-0 -z-10 h-full w-full bg-gradient-to-r from-[#041833] to-[#123663] object-cover"
+        style={{
+          objectPosition: `${mousePosition.x} ${mousePosition.y}`,
+        }}
+        className="absolute top-0 -z-10 bg-gradient-to-r from-[#041833] to-[#123663] object-cover"
         src={backgroundPage}
         alt=""
       />
