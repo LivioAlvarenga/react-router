@@ -19,31 +19,30 @@ export default function PageNotFound() {
     y: "0px",
   });
 
-  function handleMouseMove(ev) {
-    // Armazena posição inicial do mouse na tela
-    if (mousePosition.x === "0px") {
-      setMousePositionStart({
-        x: ev.clientX,
-        y: ev.clientY,
-      });
-    }
-
+  function handleMouseMove(e) {
+    console.log("Start = ", mousePositionStart, "Now = ", mousePosition);
     setMousePosition({
       x:
         mousePositionStart.x === 0
           ? "-1px"
-          : -(ev.clientX - mousePositionStart.x) / 7 + "px",
+          : -(e.clientX - mousePositionStart.x) / 7 + "px",
       y:
         mousePositionStart.y === 0
           ? "-1px"
-          : -(ev.clientY - mousePositionStart.y) / 7 + "px",
+          : -(e.clientY - mousePositionStart.y) / 7 + "px",
     });
   }
 
   return (
     <div
       className="relative h-screen w-full overflow-hidden "
-      onMouseMove={(ev) => handleMouseMove(ev)}
+      onMouseMove={(e) => handleMouseMove(e)}
+      onMouseEnter={(e) =>
+        setMousePositionStart({
+          x: e.clientX,
+          y: e.clientY,
+        })
+      }
     >
       <img
         style={{
