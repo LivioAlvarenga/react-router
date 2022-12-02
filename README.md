@@ -123,14 +123,24 @@ As seguintes ferramentas foram usadas na construção do projeto
 
 - [x] É um blog responsivo Celular, Tablet, Laptop e Desktop;
 
-![Space App](https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/Monitor_laptop_Tablet_Celular.png?raw=true)
+![Blog App](https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/Monitor_laptop_Tablet_Celular.png?raw=true)
 
 - [x] Possui Home, Sobre Mim, Blog e Page Not Found;
 
 <div align="center"> 
-  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/home.gif?raw=true" width="300">
-  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/sobre.gif?raw=true" width="300">
-  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/bolg.gif?raw=true" width="300">
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/home.gif?raw=true" width="500">
+</div>
+
+&nbsp;
+
+<div align="center">
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/sobre.gif?raw=true" width="500">
+</div>
+
+&nbsp;
+
+<div align="center">
+  <img src="https://github.com/LivioAlvarenga/react-router/blob/master/public/assets/images/bolg.gif?raw=true" width="500">
 </div>
 
 - [x] Site escalável, com todos componentes separados e sem repetição de códigos.
