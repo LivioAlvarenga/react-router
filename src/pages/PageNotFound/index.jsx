@@ -42,14 +42,14 @@ export default function PageNotFound() {
 
   return (
     <div
-      className="relative h-screen w-full overflow-hidden"
+      className="relative h-screen w-full overflow-hidden "
       onMouseMove={(ev) => handleMouseMove(ev)}
     >
       <img
         style={{
           objectPosition: `${mousePosition.x} ${mousePosition.y}`,
         }}
-        className="absolute top-0 -z-10 bg-gradient-to-r from-[#041833] to-[#123663] object-cover"
+        className="absolute top-0 -z-10 h-screen w-full bg-gradient-to-r from-azulDark to-[#123663] object-cover"
         src={backgroundPage}
         alt=""
       />
