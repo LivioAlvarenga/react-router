@@ -53,7 +53,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 
 # Adicionando configuração Tailwindcss em index.css
